@@ -7,12 +7,13 @@ Rather than viewing all the keywords in the interface, this allows you get a csv
 ```
 $ bundle
 ```
-1. Create a file called `.env` in the root and put your credentials for Mimic Pro in there.
+1. Create a file called `.env` in the root and put your credentials for Mimic Pro in there. In addition, specify the name of the keywords output file
 
 ```
 # .env file
 MIMICPRO_USERNAME=itsamemario@plumbers.com
 MIMICPRO_PASSWORD=starsandmushrooms
+OUTPUT_FILENAME=bowser.csv
 ```
 
 1. Now run the script

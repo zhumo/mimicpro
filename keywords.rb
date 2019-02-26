@@ -29,7 +29,7 @@ session.visit("https://mimic.stukent.com/simulation/7932/ed/practice/research-ke
 
 # Do the scraping
 puts "Saving keyword data..."
-CSV.open("keywords.csv", "w") do |csv|
+CSV.open(ENV["OUTPUT_FILENAME"], "w") do |csv|
   csv << ["Selected", "Keyword", "Avg Monthly Searches", "Competition", "Suggested Bid"]
 
   55.times do |n|
