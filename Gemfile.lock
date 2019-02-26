@@ -16,6 +16,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.2)
       xpath (~> 3.2)
+    dotenv (2.7.1)
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
     nokogiri (1.10.1)
@@ -37,6 +38,7 @@ PLATFORMS
 DEPENDENCIES
   apparition
   capybara (~> 3.14)
+  dotenv
 
 BUNDLED WITH
    1.16.3

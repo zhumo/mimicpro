@@ -9,3 +9,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "capybara", "~> 3.14"
 
 gem 'apparition'
+
+gem 'dotenv'

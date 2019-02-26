@@ -1,7 +1,7 @@
 require 'capybara'
 require 'capybara/apparition'
 require 'csv'
-require 'pry'
+require 'dotenv/load'
 
 Capybara.javascript_driver = :apparition
 
@@ -10,8 +10,8 @@ session = Capybara::Session.new(:apparition)
 # Log in
 puts "Logging in..."
 session.visit("https://mimic.stukent.com")
-session.fill_in "email", with: "mo.zhu.th@dartmouth.edu"
-session.fill_in "password", with: "cy+snzYovP9WjpH@HjJ9"
+session.fill_in "email", with: ENV["MIMICPRO_USERNAME"]
+session.fill_in "password", with: ENV["MIMICPRO_PASSWORD"]
 session.find("button").click
 
 # Stukent Enrollments Page

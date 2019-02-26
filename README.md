@@ -11,7 +11,7 @@ Create a file called `.env` in the root and put your credentials for Mimic Pro i
 ```
 # .env file
 MIMICPRO_USERNAME=itsamemario@plumbers.com
-MIMICPRO_PW=starsandmushrooms
+MIMICPRO_PASSWORD=starsandmushrooms
 ```
 
 Next run:
