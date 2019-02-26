@@ -19,3 +19,6 @@ MIMICPRO_PASSWORD=starsandmushrooms
 ```
 $ ruby keywords.rb
 ```
+
+# Background
+I took part in this simulation game as part of Quantitative Digital Marketing class during my MEM degree.
